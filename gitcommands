@@ -8,3 +8,4 @@ git config --glabal user.name "Ubaid Badar"                first_time
 
 git add .
 git commit -m _some_comment
+git push origin main
