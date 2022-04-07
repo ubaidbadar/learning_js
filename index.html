@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            display: grid;
+            max-width: 300px;
+            gap: 16px;
+            margin: auto;
+        }
+        .table {
+            width: 100%;
+            border: 1px solid;
+            margin: 50px 0;
+        }
+        td, th {
+            border: 1px solid;
+            text-align: left;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="form" id="product-form">
+        <h1>Add Product</h1>
+        <input name="name" type="text" placeholder="Product Name">
+        <input name="price" type="price" placeholder="Product Price">
+        <textarea name="description" placeholder="Description"></textarea>
+        <button>Save</button>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="products-table">
+           
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
