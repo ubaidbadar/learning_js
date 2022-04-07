@@ -1,0 +1,10 @@
+git init      first_time
+git branch -m main  first_time
+git remote add origin https://github.com/ubaidbadar/learning_js.git       first_time
+
+
+git config --glabal user.email "m.ubaidbadar@gmail.com"      first_time
+git config --glabal user.name "Ubaid Badar"                first_time
+
+git add .
+git commit -m _some_comment
